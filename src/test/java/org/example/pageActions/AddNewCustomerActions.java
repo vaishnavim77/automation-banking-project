@@ -3,6 +3,7 @@ package org.example.pageActions;
 import org.example.pageElements.AddNewCustomerElements;
 import org.example.pageElements.LoginElements;
 import org.example.stepDefinitions.CommonSteps;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 public class AddNewCustomerActions {
@@ -29,5 +30,10 @@ public class AddNewCustomerActions {
         addNewCustomerElements.phoneNumber.sendKeys("9860860565");
         addNewCustomerElements.email.sendKeys("vv@gmail.com");
         addNewCustomerElements.submit.click();
+        String ActualTitle = driver.getTitle();
+        System.out.println(ActualTitle);
+        String ExpectedTitle = "successfully added";
+        Assert.assertEquals(ExpectedTitle, ActualTitle);
+
     }
 }
