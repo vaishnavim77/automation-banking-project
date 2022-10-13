@@ -17,6 +17,12 @@ public class LoginElements {
     @FindBy(name = "btnLogin")
     public WebElement logIn;
 
+    @FindBy(xpath = "//label[@id='message23']")
+    public WebElement invalidLoginIdMessage;
+
+    @FindBy(xpath = "//label[@id='message18']")
+    public WebElement invalidPasswordMessage;
+
     public LoginElements(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);

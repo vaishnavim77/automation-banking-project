@@ -38,6 +38,9 @@ public class AddNewCustomerElements {
     @FindBy(xpath="//input[@name='emailid']")
     public WebElement email;
 
+    @FindBy(xpath="//input[@name='password']")
+    public WebElement password;
+
     @FindBy(xpath="//input[@name='sub']")
     public WebElement submit;
 

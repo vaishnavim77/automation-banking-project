@@ -4,6 +4,7 @@ import org.example.pageElements.AddNewCustomerElements;
 import org.example.pageElements.LoginElements;
 import org.example.stepDefinitions.CommonSteps;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 
 public class AddNewCustomerActions {
@@ -28,12 +29,15 @@ public class AddNewCustomerActions {
         addNewCustomerElements.state.sendKeys("maharastra");
         addNewCustomerElements.pincode.sendKeys("451714");
         addNewCustomerElements.phoneNumber.sendKeys("9860860565");
-        addNewCustomerElements.email.sendKeys("vv@gmail.com");
+        addNewCustomerElements.email.sendKeys("ami123@gmail.com");
+        addNewCustomerElements.password.sendKeys("123456");
         addNewCustomerElements.submit.click();
-        String ActualTitle = driver.getTitle();
+        /*String ActualTitle = driver.getTitle();
         System.out.println(ActualTitle);
         String ExpectedTitle = "successfully added";
-        Assert.assertEquals(ExpectedTitle, ActualTitle);
-
+        Assert.assertEquals(ExpectedTitle, ActualTitle);*/
+        /*Thread.sleep(2000);
+        driver.switchTo().alert().accept();
+        Thread.sleep(2000);*/
     }
 }

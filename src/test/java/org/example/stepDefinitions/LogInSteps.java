@@ -1,9 +1,11 @@
 package org.example.stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pageActions.LoginActions;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 public class LogInSteps {
@@ -28,5 +30,27 @@ public class LogInSteps {
     public void login_should_be_successful() {
 
     }
+
+    @When("enter invalidId")
+    public void enter_invalid_id() {
+        loginActions.enterInvalidUserId();
+    }
+
+    @Then("log in should fail")
+    public void log_in_should_fail() {
+
+    }
+
+    @And("enter valid userId {string}")
+    public void enter_valid_user_id(String userId) {
+        loginActions.enterUserId(userId);
+    }
+    @When("enter invalidPassword")
+    public void enter_invalid_password() throws InterruptedException {
+        loginActions.enterInvalidPassword();
+    }
+
+
+
 
 }
