@@ -50,6 +50,21 @@ public class LogInSteps {
         loginActions.enterInvalidPassword();
     }
 
+    @When("I enter {string} in username field")
+    public void i_enter_in_username_field(String string) {
+        loginActions.enterInvalidUserId2(string);
+    }
+    @When("I enter {string},{string} in password field")
+    public void i_enter_in_password_field(String userId, String password) {
+        loginActions.enterInvalidPasswordId2(userId,password);
+    }
+
+
+    @Then("I should get {string}")
+    public void i_should_get(String string) throws InterruptedException {
+       loginActions.i_should_get(string);
+
+    }
 
 
 

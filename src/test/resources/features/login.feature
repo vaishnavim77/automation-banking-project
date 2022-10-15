@@ -23,12 +23,24 @@ Feature: this is login feature
     When enter invalidPassword
     Then log in should fail
 
-  Scenario Outline: Validate unsername field
+    @SC4
+  Scenario Outline: Validate username field
     Given I open application url in browser
     And I navigate to login page
-    When I enter <InvalidValue> in username field
-    Then I should get <ErrorMessage>
+    When I enter '<InvalidValue>' in username field
+    Then I should get '<ErrorMessage>'
 
     Examples:
       |InvalidValue|ErrorMessage|
-      |            |            |
+      |            |  User-ID must not be blank   |
+
+  @SC5
+  Scenario Outline: Validate username field
+    Given I open application url in browser
+    And I navigate to login page
+    When I enter '<username>','password' in password field
+    Then I should get '<ErrorMessage>'
+
+    Examples:
+      |username|password|ErrorMessage|
+      | mngr446232|    |Password must not be blank   |
