@@ -22,3 +22,13 @@ Feature: this is login feature
     And enter valid userId "mngr446232"
     When enter invalidPassword
     Then log in should fail
+
+  Scenario Outline: Validate unsername field
+    Given I open application url in browser
+    And I navigate to login page
+    When I enter <InvalidValue> in username field
+    Then I should get <ErrorMessage>
+
+    Examples:
+      |InvalidValue|ErrorMessage|
+      |            |            |

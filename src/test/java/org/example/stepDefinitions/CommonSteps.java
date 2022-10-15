@@ -23,11 +23,11 @@ public class CommonSteps {
     @After
     public void tearDown() throws InterruptedException {
         driver.quit();
-        Thread.sleep(3000);
+
     }
 
     @Given("I open application url in browser")
     public void i_open_application_url_in_browser() {
-        driver.get("https://demo.guru99.com/V1/index.php");
+        driver.get("https://demo.guru99.com/V4/index.php");
     }
 }

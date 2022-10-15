@@ -1,5 +1,6 @@
 package org.example.stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import org.example.pageActions.*;
 import org.openqa.selenium.WebDriver;
@@ -63,10 +64,38 @@ public class ManagerSteps {
     public void i_navigate_to_new_account() throws InterruptedException {
         createNewAccountActions.clickOnCreateNewAccount();
     }
-    @When("fill  details form")
-    public void fill_details_form() {
-        createNewAccountActions.fillAccountDetail();
+    @When("Numbers are not allowed at name")
+    public void numbers_are_not_allowed_at_name() throws InterruptedException {
+        addNewCustomerActions.canNotEnterNumberAtName();
     }
+    @When("Special characters are not allowed")
+    public void special_characters_are_not_allowed() {
+        addNewCustomerActions.special_characters_are_not_allowed();
+    }
+    @When("Customer name must not be blank")
+    public void customer_name_must_not_be_blank() throws InterruptedException {
+        addNewCustomerActions.customer_name_must_not_be_blank();
+    }
+
+    @When("First character cannot have space")
+    public void first_character_cannot_have_space() {
+        addNewCustomerActions.first_character_cannot_have_space();
+    }
+
+    @When("Address Field must not be blank")
+    public void address_field_must_not_be_blank() throws InterruptedException {
+        addNewCustomerActions.address_field_must_not_be_blank();
+    }
+
+    @When("First character can not have space")
+    public void first_character_can_not_have_space() throws InterruptedException {
+        addNewCustomerActions.first_character_can_not_have_space();
+    }
+    @When("Special characters are not allowed at address field")
+    public void special_characters_are_not_allowed_at_address_field() throws InterruptedException {
+        addNewCustomerActions.special_characters_are_not_allowed_at_address_field();
+    }
+
     @When("account  should created")
     public void account_should_created() {
 
@@ -77,12 +106,13 @@ public class ManagerSteps {
         editAccountActions.clickOnEditAccount();
         Thread.sleep(2000);
         editAccountActions.enterAccountId();
-
-
     }
+
+
     @When("account  should updated")
     public void account_should_updated() {
 
     }
+
 
 }
