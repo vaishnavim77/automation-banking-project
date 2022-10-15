@@ -6,15 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cdd74e10-edbf-40db-8481-5e6e85cb2c64" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pageActions/AddNewCustomerActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pageActions/AddNewCustomerActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pageActions/LoginActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pageActions/LoginActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pageElements/AddNewCustomerElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pageElements/AddNewCustomerElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pageElements/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pageElements/LoginElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinitions/LogInSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinitions/LogInSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDefinitions/ManagerSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDefinitions/ManagerSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/manager.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/manager.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +52,15 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="Scenario: Login with invalid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Special characters are not allowed Add new customer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/manager.feature" />
       <option name="GLUE" value="org.example.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="automation-banking-project" />
-      <option name="NAME_FILTER" value="^Login with invalid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with invalid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid credentials" />
+      <option name="NAME_FILTER" value="^Special characters are not allowed Add new customer$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Special characters are not allowed Add new customer$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Special characters are not allowed Add new customer" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -77,15 +72,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login with invalid userId" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Special characters are not allowed Address new customer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/manager.feature" />
       <option name="GLUE" value="org.example.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="automation-banking-project" />
-      <option name="NAME_FILTER" value="^Login with invalid userId$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with invalid userId$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid userId" />
+      <option name="NAME_FILTER" value="^Special characters are not allowed Address new customer$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Special characters are not allowed Address new customer$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Special characters are not allowed Address new customer" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +92,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login with invalid userPassword" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Special characters are not allowed inaddress field new customer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/manager.feature" />
       <option name="GLUE" value="org.example.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="automation-banking-project" />
-      <option name="NAME_FILTER" value="^Login with invalid userPassword$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with invalid userPassword$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid userPassword" />
+      <option name="NAME_FILTER" value="^Special characters are not allowed inaddress field new customer$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Special characters are not allowed inaddress field new customer$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Special characters are not allowed inaddress field new customer" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,15 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login with valid credentials 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Validate username field" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
       <option name="GLUE" value="org.example.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="automation-banking-project" />
-      <option name="NAME_FILTER" value="^Login with valid credentials 1$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with valid credentials 1$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with valid credentials 1" />
+      <option name="NAME_FILTER" value="^Validate username field$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate username field$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate username field" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -179,20 +174,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Login with invalid credentials" />
-      <item itemvalue="Cucumber Java.Scenario: Login with invalid userId" />
-      <item itemvalue="Cucumber Java.Scenario: Login with invalid userPassword" />
-      <item itemvalue="Cucumber Java.Scenario: Login with valid credentials 1" />
+      <item itemvalue="Cucumber Java.Scenario: Special characters are not allowed Add new customer" />
+      <item itemvalue="Cucumber Java.Scenario: Special characters are not allowed Address new customer" />
+      <item itemvalue="Cucumber Java.Scenario: Special characters are not allowed inaddress field new customer" />
+      <item itemvalue="Cucumber Java.Scenario: Validate username field" />
       <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="Maven.automation-banking-project [clear...]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Login with invalid userPassword" />
-        <item itemvalue="Cucumber Java.Scenario: Login with invalid userId" />
-        <item itemvalue="Cucumber Java.Scenario: Login with invalid credentials" />
-        <item itemvalue="Cucumber Java.Scenario: Login with valid credentials 1" />
+        <item itemvalue="Cucumber Java.Scenario: Validate username field" />
+        <item itemvalue="Cucumber Java.Scenario: Special characters are not allowed inaddress field new customer" />
+        <item itemvalue="Cucumber Java.Scenario: Special characters are not allowed Address new customer" />
+        <item itemvalue="Cucumber Java.Scenario: Special characters are not allowed Add new customer" />
       </list>
     </recent_temporary>
   </component>

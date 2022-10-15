@@ -44,6 +44,11 @@ public class AddNewCustomerElements {
     @FindBy(xpath="//input[@name='sub']")
     public WebElement submit;
 
+    @FindBy(xpath="//label[@id='message']")
+    public WebElement numberAreNotAllowedMessage;
+
+   @FindBy(xpath="//label[@id='message3']")
+    public WebElement addressValidationMessage;
     public AddNewCustomerElements(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
